@@ -7,10 +7,14 @@
     display: flex;
 }
 .side-bar{
-    width: 300px;
+    width: 250px;
     height: calc(100vh - 100px);
     position: fixed;
     background-color: black;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #A3A3A3;
 }
 footer{
     height: 100px;
@@ -27,9 +31,156 @@ footer{
 }
 header{
     height: 100px;
-    width: calc(100% - 300px);
+    width: calc(100% - 250px);
     position: fixed;
     right: 0;
     background-color: #080B12;
-    justify-content: flex-end;
+    opacity: 0.7;
+}
+.logo-big{
+    width: 200px;
+    margin-bottom: 30px;
+}
+.logo-small{
+    margin-bottom: 20px;
+}
+.icon-medium{
+    font-size: 25px;
+}
+.select-menu{
+    font-size: 20px;
+    margin-bottom: 15px;
+    align-items: center;
+}
+.m-right{
+    margin-right: 7px;
+}
+.side-bar a{
+    text-decoration: none;
+    color: #A3A3A3;
+}
+.playlist{
+    margin-top: 30px;
+}
+.playlist h3{
+    color: white;
+    margin-bottom: 10px;
+}
+.new-playlist{
+    font-size: 15px;
+    line-height: 35px;
+    margin-top: 15px;
+    flex-direction: column;
+}
+.account{
+    position: fixed;
+    bottom: 100px;
+}
+.hr{
+    width: 190px;
+    height: 2px;
+    border-bottom: #A3A3A3 solid;
+    margin-bottom: 15px;
+}
+.white{
+    color: white;
+}
+.none{
+    display: none;
+}
+
+
+
+
+
+/* ANIMATIONS */
+.select-menu:hover{
+    color: white;
+}
+.side-bar a:hover{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MOBILE */
+
+@media screen and (max-width: 568px){
+    .side-bar{
+        width: 70px;
+    }
+    header{
+        width: calc(100% - 70px);
+    }
+    .side-bar a{
+        display: none;
+    }
+    .side-bar h3{
+        display: none;
+    }
+    .side-bar .hr{
+        display: none;
+    }
+    .logo-big{
+        display: none;
+    }
+    .none{
+        display: block;
+    }
 }
