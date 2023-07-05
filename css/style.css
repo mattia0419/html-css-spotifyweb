@@ -3,3 +3,33 @@
     margin: 0;
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+.flex{
+    display: flex;
+}
+.side-bar{
+    width: 300px;
+    height: calc(100vh - 100px);
+    position: fixed;
+    background-color: black;
+}
+footer{
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: #282828;
+}
+.main-content{
+    height: 200vh;
+    flex-grow: 1;
+    overflow: auto;
+    background-color: #141922;
+}
+header{
+    height: 100px;
+    width: calc(100% - 300px);
+    position: fixed;
+    right: 0;
+    background-color: #080B12;
+    justify-content: flex-end;
+}
