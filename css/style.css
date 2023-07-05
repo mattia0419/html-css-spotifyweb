@@ -182,6 +182,8 @@ header{
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
     margin-left: 50px;
+    justify-content: flex-end;
+    align-items: center;
 }
 .gray-part-big{
     height: 7px;
@@ -257,6 +259,13 @@ header{
     -webkit-border-radius:999em;
     -o-border-radius: 999em;
 }
+.point{
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+    display: none;
+}
 
 
 
@@ -307,31 +316,12 @@ header{
     z-index: 0;
     filter: brightness(50%);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.white-part:hover{
+    background-color: greenyellow;
+}
+.white-part-big:hover{
+    background-color: greenyellow;
+}
 
 
 
@@ -432,3 +422,56 @@ header{
         position: relative;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
