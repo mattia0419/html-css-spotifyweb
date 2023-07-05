@@ -191,6 +191,76 @@ header{
     border-bottom-right-radius: 12px;
     margin-right: 50px;
 }
+.under-header{
+    margin-top: 100px;
+    margin-left: 250px;
+    margin-bottom: 100px;
+    width: calc(100% - 250px);
+    height: calc(100% - 200px);
+}
+.menu{
+    border: white solid;
+    justify-content: center;
+    padding: 20px;
+}
+.menu a{
+    text-decoration: none;
+    color: #6D6D6D;
+    margin-right: 20px;
+}
+.title{
+    width: 100%;
+    padding-left: 1rem;
+    border: white solid;
+}
+.recent-played{
+    border: white solid;
+    width: 100%;
+}
+.card{
+    width: calc(100% / 6);
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+}
+.card h3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: white;
+}
+.card span{
+    color: #A3A3A3;
+}
+.card img{
+    position: relative;
+    z-index: 2;
+}
+.icon-on-song{
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    z-index: 1;
+    right: calc(50% - 50px);
+    left: calc(50% - 50px);
+    top: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -205,7 +275,7 @@ header{
 .select-menu:hover{
     color: white;
 }
-.side-bar a:hover{
+.side-bar,.menu a:hover{
     color: white;
 }
 .button-header:hover{
@@ -215,6 +285,10 @@ header{
   }
   .left-side-footer-2 i:hover{
     color: white;
+}
+.card img:hover{
+    z-index: 0;
+    filter: brightness(50%);
 }
 
 
