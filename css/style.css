@@ -30,7 +30,6 @@ footer{
     align-items: center;
 }
 .main-content{
-    height: 200vh;
     flex-grow: 1;
     overflow: auto;
     background-color: #141922;
@@ -201,7 +200,6 @@ header{
     height: calc(100% - 200px);
 }
 .menu{
-    border: white solid;
     justify-content: center;
     padding: 20px;
     flex-wrap: wrap;
@@ -217,10 +215,8 @@ header{
 .title{
     width: 100%;
     padding-left: 1rem;
-    border: white solid;
 }
 .recent-played{
-    border: white solid;
     width: 100%;
     flex-wrap: wrap;
 }
@@ -253,7 +249,14 @@ header{
     top: 25%;
 }
 
-
+.circle{
+    width: 200px;
+    aspect-ratio: 1;
+    border-radius:999em;   
+    -moz-border-radius:999em; 
+    -webkit-border-radius:999em;
+    -o-border-radius: 999em;
+}
 
 
 
