@@ -36,6 +36,9 @@ header{
     right: 0;
     background-color: #080B12;
     opacity: 0.7;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
 }
 .logo-big{
     width: 200px;
@@ -43,6 +46,8 @@ header{
 }
 .logo-small{
     margin-bottom: 20px;
+    position: fixed;
+    z-index: 2;
 }
 .icon-medium{
     font-size: 25px;
@@ -74,7 +79,9 @@ header{
 }
 .account{
     position: fixed;
+    z-index: 1;
     bottom: 100px;
+    background-color: black;
 }
 .hr{
     width: 190px;
@@ -88,6 +95,30 @@ header{
 .none{
     display: none;
 }
+.button-header{
+    background-color: transparent;
+    color: white;
+    border: solid white;
+    padding: 15px 40px;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -100,6 +131,12 @@ header{
 .side-bar a:hover{
     color: white;
 }
+.button-header:hover{
+    transition-property: all;
+    transition-duration: 0.5s;
+    transform: scale(1.1);
+  }
+  
 
 
 
