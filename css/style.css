@@ -3,6 +3,16 @@
     margin: 0;
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: white;
+}
+
+
 .flex{
     display: flex;
 }
@@ -55,7 +65,7 @@ header{
 }
 .icon-medium{
     font-size: 25px;
-    color: #A3A3A3;
+    /* color: #A3A3A3; */
 }
 .select-menu{
     font-size: 20px;
@@ -67,7 +77,8 @@ header{
 }
 .side-bar a{
     text-decoration: none;
-    color: #A3A3A3;
+    /* color: #A3A3A3; */
+    /* color: inherit; */
 }
 .playlist{
     margin-top: 30px;
@@ -81,6 +92,8 @@ header{
     line-height: 30px;
     margin-top: 15px;
     flex-direction: column;
+    height: 30vh;
+    overflow: auto;
 }
 .account{
     position: absolute;
@@ -266,8 +279,22 @@ header{
     border-radius: 50%;
     display: none;
 }
-
-
+.under-line{
+    width: 40%;
+    height: 1px;
+    background-color: #ADFF2F;
+    position: relative;
+    right: 20px;
+}
+.evidence a{
+    width: 100%;
+}
+.evidence{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
 
 
 
@@ -292,7 +319,10 @@ header{
 
 
 /* ANIMATIONS */
-.select-menu a:hover{
+.select-menu:hover{
+    color: white;
+}
+/* .select-menu a:hover{
     color: white;
 }
 .select-menu i:hover{
@@ -300,7 +330,7 @@ header{
 }
 .side-bar a:hover{
     color: white;
-}
+} */
 .menu a:hover{
     color: white;
 }
@@ -322,7 +352,9 @@ header{
 .white-part-big:hover{
     background-color: greenyellow;
 }
-
+.white-part-big:hover .point{
+    display: block;
+}
 
 
 
